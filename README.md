@@ -9,7 +9,7 @@ Bikeshare Data in Three US Cities
 ### Description
 The project is about the bikeshare records in three US cities,
 Chicago, New York City and Washington.
-The program takes an input from users and filters the source data.
+The program takes requests from users and filters data based on it.
 It also interacts with users to present some analytical summaries.
 
 ### Files used
