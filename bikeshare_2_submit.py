@@ -42,8 +42,7 @@ def get_filters():
     day_list = ['All','Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
 
     while True:
-        day_of_week = input("Finally, please enter the name of a day of the week, e.g. 'sunday', or type 'all' to apply no filters: ")
-        day_of_week = day_of_week.title()
+        day_of_week = input("Finally, please enter the name of a day of the week, e.g. 'sunday', or type 'all' to apply no filters: ").title()
         if day_of_week in day_list:
             break
         else:
@@ -232,8 +231,8 @@ def main():
         else:
             print("\nThere is no corresponding data for your filters. Try different ones!\n")
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes':
+        restart = input('\nWould you like to restart? Enter y to do so.\n')
+        if restart.lower() != 'y':
             print("Thank you for tyring our service!")
             break
 
