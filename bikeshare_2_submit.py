@@ -79,7 +79,7 @@ def load_data(city, month, day):
     return df
 
 def show_raw_data(df):
-    """ Shows the extracted raw data to users upon their choise five rows at a time """
+    """ Shows the extracted raw data to users five rows at a time upon their request"""
 
     current_pos = 0
     go_on = input("Do you want to see the first five rows of the extracted dataset? (Type y/n)")
@@ -100,7 +100,8 @@ def show_raw_data(df):
 def choose_function(df,func1,func2,func3,func4):
     """
     Lets users choose which statistic output they like to see
-    Args in the order of extracted df, time_stats, station_stats, trip_duration_stats and user_stats
+    Args: (in the order of appearance)
+        df, time_stats, station_stats, trip_duration_stats and user_stats
     """
 
     go_on = 'y'
