@@ -7,21 +7,23 @@ May 18, 2021
 Bikeshare Data in Three US Cities
 
 ### Description
-The project is about the bikeshare records in three US cities,
-Chicago, New York City and Washington.
+The project is about the bikeshare records in three US cities below.
+
+- Chicago
+- New York City
+- Washington.
+
 The program takes requests from users and filters data based on it.
-It also interacts with users to present some analytical summaries.
+It also interacts with users to present some statistical summaries.
 
 ### Files used
-bikeshare_2_submit.py
-chicago.csv
-new_york_city.csv
-washington.csv
-.gitignore
+- bikeshare_2_submit.py
+- chicago.csv
+- new_york_city.csv
+- washington.csv
+- .gitignore
 
 ### Credits
-How to count rows of a pandas dataframe
-https://stackoverflow.com/questions/15943769/how-do-i-get-the-row-count-of-a-pandas-dataframe
-
-Use functions as arguments
-https://stackoverflow.com/questions/6289646/python-function-as-a-function-argument
+[How to count rows of a pandas dataframe](
+https://stackoverflow.com/questions/15943769/how-do-i-get-the-row-count-of-a-pandas-dataframe)\
+[Use functions as arguments](https://stackoverflow.com/questions/6289646/python-function-as-a-function-argument)
