@@ -1,17 +1,27 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-Include the date you created this project and README file.
+May 18, 2021
 
 ### Project Title
-Replace the Project Title
+Bikeshare Data in Three US Cities
 
 ### Description
-Describe what your project is about and what it does
+The project is about the bikeshare records in three US cities,
+Chicago, New York City and Washington.
+The program takes an input from users and filters the source data.
+It also interacts with users to present some analytical summaries.
 
 ### Files used
-Include the files used
+bikeshare_2_submit.py
+chicago.csv
+new_york_city.csv
+washington.csv
+.gitignore
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+How to count rows of a pandas dataframe
+https://stackoverflow.com/questions/15943769/how-do-i-get-the-row-count-of-a-pandas-dataframe
 
+Use functions as arguments
+https://stackoverflow.com/questions/6289646/python-function-as-a-function-argument
